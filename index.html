@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Empleado del Mes</title>
+</head>
+<body>
+    <h1>Empleado del Mes</h1>
+
+    <div id="form-container">
+        <label for="nombre">Nombre del Vendedor:</label>
+        <input type="text" id="nombre" placeholder="Ingrese el nombre" required>
+        <label for="aqua">Cantidad Aqua:</label>
+        <input type="number" id="aqua" placeholder="Cantidad de Aqua" required>
+        <label for="emocion">Cantidad Emocion:</label>
+        <input type="number" id="emocion" placeholder="Cantidad de Emocion" required>
+        <label for="alegria">Cantidad Alegria:</label>
+        <input type="number" id="alegria" placeholder="Cantidad de Alegria" required>
+        <label for="frescura">Cantidad Frescura:</label>
+        <input type="number" id="frescura" placeholder="Cantidad de Frescura" required>
+        <button id="registrarVentaBtn">Registrar Venta</button>
+    </div>
+
+    <div id="resultados-container">
+        <h2>Resultados</h2>
+        <div id="resultados"></div>
+        <p><strong> Clik sobre el boton para ver el resultado </strong></p>
+        <button id="calcularEmpleadoBtn">Empleado del Mes</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
